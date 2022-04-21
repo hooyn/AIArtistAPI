@@ -29,3 +29,7 @@
 
 #### 7. 실행되는 동영상
 https://user-images.githubusercontent.com/66655076/164369616-8d4aa65d-623f-440d-9474-23ae36cfa66d.mp4
+
+#### 8. 수상
+![image](https://user-images.githubusercontent.com/66655076/164369729-05ab0091-9674-4bd9-a9b3-feccce97c717.png)
+
