@@ -18,3 +18,14 @@
   <img src="https://user-images.githubusercontent.com/66655076/164369357-163d980b-e656-41aa-9b04-d6dfc8c04036.png" width="250" height="400">
 </div>
 
+#### 5. 완성된 그림
+<img src="https://user-images.githubusercontent.com/66655076/164369414-22473e0f-96e8-460a-89bd-5aef70f941ac.png" width="250" height="400">
+
+#### 6. 작품 목록과 편집
+<div>
+  <img src="https://user-images.githubusercontent.com/66655076/164369470-8eb24929-4b36-45aa-ad69-01a3b90d8f95.png" width="250" height="400">
+  <img src="https://user-images.githubusercontent.com/66655076/164369525-7ca31eef-6ded-4adc-ae3d-046da58e26fa.png" width="250" height="400">
+</div>
+
+#### 7. 실행되는 동영상
+https://user-images.githubusercontent.com/66655076/164369616-8d4aa65d-623f-440d-9474-23ae36cfa66d.mp4
