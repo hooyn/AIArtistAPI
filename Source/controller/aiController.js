@@ -3,7 +3,7 @@ const util = require('../function.js');
 const spawn = require('child_process').spawn; 
 var request = require("sync-request");
 const {Storage} = require('@google-cloud/storage');
-const storage = new Storage({keyFilename: '/home/ubuntu/key/epoch-7c08e-firebase-adminsdk-898gp-b72e4cbd9a.json'});
+const storage = new Storage({keyFilename: '/home/ubuntu/key/******************.json'});
 const bucket = 'gs://epoch-7c08e.appspot.com';
 var async = require('async')
 
@@ -18,15 +18,15 @@ exports.testModel = async function(req, res){
     data = {}
 
     try{
-        // function uploadFile() {
-        //     storage.bucket(bucket).upload('/home/ubuntu/image/' + userID + '/result.png', {
-        //       destination: userID + "/result/" + fileName,
-        //       contentType: 'image/png'
-        //     });
-        //     console.log("[testModel] [ " + userID + "] Result Image Uploading." + util.dateMake());
-        //     return res.json(util.returnMake(data, true, 200, 'nst 모델이 완료되었습니다.'));
-        // }
-        // uploadFile()
+         function uploadFile() {
+             storage.bucket(bucket).upload('/home/ubuntu/image/' + userID + '/result.png', {
+               destination: userID + "/result/" + fileName,
+               contentType: 'image/png'
+             });
+             console.log("[testModel] [ " + userID + "] Result Image Uploading." + util.dateMake());
+             return res.json(util.returnMake(data, true, 200, 'nst 모델이 완료되었습니다.'));
+         }
+         uploadFile()
         console.log("[testModel] [ " + userID + " / " + fileName + "] Result Image Uploading." + util.dateMake());
         return res.json(util.returnMake(data, true, 200, 'nst 모델이 완료되었습니다.'));
 
